@@ -14,7 +14,7 @@
 
 This progressive web app allows users to edit a text file using CodeMirror, which prettifies code such as Javascript. The app allows data to persist whether the user is online or offline, and implements an assets cache to store data.
 
-This CLI application uses npm packages `idb` and `code-mirror-themes`.
+This Node application uses npm packages `idb` and `code-mirror-themes`.
 
 I made this app in order to learn how to implement an IndexedDB to store persistent data, and also to learn how to make a progressive web app that implements caching strategies like Cache-First using service workers.
 
@@ -57,9 +57,9 @@ cd ..
 
 ## Video Demo
 
-Here.mp4
+https://user-images.githubusercontent.com/99461390/176977890-28eec4aa-222b-4319-aae7-37f28dc6d862.mp4
 
-Video is also available on [YouTube](TBA)
+Video is also available on [YouTube](https://www.youtube.com/watch?v=nz5ANwI0pWI)
 
 ```
 
@@ -67,15 +67,15 @@ Video is also available on [YouTube](TBA)
 
 ### The application's `manifest.json` file:
 
-![a manifest file in the browser.](x)
+![a manifest file in the browser.](https://user-images.githubusercontent.com/99461390/176977908-5300be5d-5871-4583-872d-6eb61f796122.jpg)
 
 ### The application's registered service worker:
 
-![registered service worker in the browser.](x)
+![registered service worker in the browser.](https://user-images.githubusercontent.com/99461390/176977917-fcb42a99-12f7-43d6-985d-ef31d07d6f15.jpg)
 
 ### The application's IndexedDB storage:
 
-![IndexedDB storage named 'jate' in the browser.](x)
+![IndexedDB storage named 'jate' in the browser.](https://user-images.githubusercontent.com/99461390/176977919-715ef991-2743-4c50-8f03-4c23c364b8a4.png)
 
 ## Credits
 
