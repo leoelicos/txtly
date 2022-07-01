@@ -1,14 +1,8 @@
 # Progressive Text Editor
 
-![idb](https://img.shields.io/badge/7.0.2-0?label=idb&style=for-the-badge&labelColor=white&color=black)
+![idb](https://img.shields.io/badge/7.0.2-0?label=idb&style=for-the-badge&labelColor=white&color=black) ![webpack](https://img.shields.io/badge/5.73.0-0?label=webpack&style=for-the-badge&labelColor=white&color=black) ![workbox-webpack-plugin](https://img.shields.io/badge/6.5.3-0?label=workbox-webpack-plugin&style=for-the-badge&labelColor=white&color=black) ![codemirror](https://img.shields.io/badge/1.0.0-0?label=code-mirror-themes&style=for-the-badge&labelColor=white&color=black)
 
-![codemirror](https://img.shields.io/badge/1.0.0-0?label=code-mirror-themes&style=for-the-badge&labelColor=white&color=black)
-
-![babel-loader](https://img.shields.io/badge/8.2.5-0?label=babel-loader&style=flat-square&labelColor=white&color=black) ![css-loader](https://img.shields.io/badge/6.7.1-0?label=css-loader&style=flat-square&labelColor=white&color=black) ![style-loader](https://img.shields.io/badge/3.3.1-0?label=style-loader&style=flat-square&labelColor=white&color=black)
-
-![webpack](https://img.shields.io/badge/5.73.0-0?label=webpack&style=flat-square&labelColor=white&color=black) ![webpack-cli](https://img.shields.io/badge/4.10.0-0?label=webpack-cli&style=flat-square&labelColor=white&color=black) ![webpack-dev-server](https://img.shields.io/badge/4.9.3-0?label=webpack-dev-server&style=flat-square&labelColor=white&color=black) ![webpack-pwa-manifest](https://img.shields.io/badge/4.3.0-0?label=webpack-pwa-manifest&style=flat-square&labelColor=white&color=black) ![workbox-webpack-plugin](https://img.shields.io/badge/6.5.3-0?label=workbox-webpack-plugin&style=flat-square&labelColor=white&color=black)
-
-![concurrently](https://img.shields.io/badge/7.2.2-0?label=concurrently&style=flat-square&labelColor=white&color=black) ![nodemon](https://img.shields.io/badge/2.0.18-0?label=nodemon&style=flat-square&labelColor=white&color=black)
+![babel-loader](https://img.shields.io/badge/8.2.5-0?label=babel-loader&style=flat-square&labelColor=gray&color=black) ![css-loader](https://img.shields.io/badge/6.7.1-0?label=css-loader&style=flat-square&labelColor=gray&color=black) ![style-loader](https://img.shields.io/badge/3.3.1-0?label=style-loader&style=flat-square&labelColor=gray&color=black) ![webpack-cli](https://img.shields.io/badge/4.10.0-0?label=webpack-cli&style=flat-square&labelColor=gray&color=black) ![webpack-dev-server](https://img.shields.io/badge/4.9.3-0?label=webpack-dev-server&style=flat-square&labelColor=gray&color=black) ![webpack-pwa-manifest](https://img.shields.io/badge/4.3.0-0?label=webpack-pwa-manifest&style=flat-square&labelColor=gray&color=black) ![concurrently](https://img.shields.io/badge/7.2.2-0?label=concurrently&style=flat-square&labelColor=gray&color=black) ![nodemon](https://img.shields.io/badge/2.0.18-0?label=nodemon&style=flat-square&labelColor=gray&color=black)
 
 ## Introduction
 
