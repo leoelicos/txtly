@@ -55,7 +55,6 @@ https://user-images.githubusercontent.com/99461390/176977890-28eec4aa-222b-4319-
 
 Video is also available on [YouTube](https://www.youtube.com/watch?v=nz5ANwI0pWI)
 
-```
 
 ## Screenshots
 
