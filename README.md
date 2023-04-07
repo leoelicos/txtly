@@ -14,8 +14,8 @@ I made this app in order to learn how to implement an IndexedDB to store persist
 
 ## Usage
 
-- The app is deployed at https://leoelicos-jate.herokuapp.com/
-- The repo is at https://github.com/leoelicos/progressive-text-editor
+- The app is deployed at https://txtly.herokuapp.com/
+- The repo is at https://github.com/leoelicos/txtly
 
 ## Development and Testing
 
@@ -28,9 +28,9 @@ I made this app in order to learn how to implement an IndexedDB to store persist
 ### 1. Git clone and go inside
 
 ```sh
-git clone https://github.com/leoelicos/progressive-text-editor.git
+git clone https://github.com/leoelicos/txtly.git
 
-cd progressive-text-editor
+cd txtly
 ```
 
 ### 2. Install dependencies
@@ -55,7 +55,6 @@ https://user-images.githubusercontent.com/99461390/176977890-28eec4aa-222b-4319-
 
 Video is also available on [YouTube](https://www.youtube.com/watch?v=nz5ANwI0pWI)
 
-
 ## Screenshots
 
 ### The application's `manifest.json` file:
@@ -68,7 +67,7 @@ Video is also available on [YouTube](https://www.youtube.com/watch?v=nz5ANwI0pWI
 
 ### The application's IndexedDB storage:
 
-![IndexedDB storage named 'jate' in the browser.](https://user-images.githubusercontent.com/99461390/176977919-715ef991-2743-4c50-8f03-4c23c364b8a4.png)
+![IndexedDB storage named 'txtly' in the browser.](https://user-images.githubusercontent.com/99461390/176977919-715ef991-2743-4c50-8f03-4c23c364b8a4.png)
 
 ## Credits
 
@@ -79,4 +78,7 @@ Video is also available on [YouTube](https://www.youtube.com/watch?v=nz5ANwI0pWI
 &copy; Leo Wong <leoelicos@gmail.com>
 
 Licensed under the [MIT License](./LICENSE).
+
+```
+
 ```
