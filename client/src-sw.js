@@ -1,11 +1,11 @@
-import { warmStrategyCache } from 'workbox-recipes';
-import { CacheFirst, StaleWhileRevalidate } from 'workbox-strategies';
-import { registerRoute } from 'workbox-routing';
-import { CacheableResponsePlugin } from 'workbox-cacheable-response';
-import { ExpirationPlugin } from 'workbox-expiration';
-import { precacheAndRoute } from 'workbox-precaching/precacheAndRoute';
+import { warmStrategyCache } from 'workbox-recipes'
+import { CacheFirst, StaleWhileRevalidate } from 'workbox-strategies'
+import { registerRoute } from 'workbox-routing'
+import { CacheableResponsePlugin } from 'workbox-cacheable-response'
+import { ExpirationPlugin } from 'workbox-expiration'
+import { precacheAndRoute } from 'workbox-precaching/precacheAndRoute'
 
-precacheAndRoute(self.__WB_MANIFEST);
+precacheAndRoute(self.__WB_MANIFEST)
 
 const pageCache = new CacheFirst({
   cacheName: 'page-cache',
@@ -17,18 +17,17 @@ const pageCache = new CacheFirst({
       maxAgeSeconds: 30 * 24 * 60 * 60
     })
   ]
-});
+})
 
 warmStrategyCache({
   urls: ['/index.html', '/'],
   strategy: pageCache
-});
+})
 
-registerRoute(({ request }) => request.mode === 'navigate', pageCache);
+registerRoute(({ request }) => request.mode === 'navigate', pageCache)
 
-// TODO: Implement asset caching
-const cacheName = 'asset-cache';
-const matchCallback = ({ request }) => ['style', 'script', 'worker'].includes(request.destination);
+const cacheName = 'asset-cache'
+const matchCallback = ({ request }) => ['style', 'script', 'worker'].includes(request.destination)
 registerRoute(
   matchCallback,
   new StaleWhileRevalidate({
@@ -39,4 +38,4 @@ registerRoute(
       })
     ]
   })
-);
+)
