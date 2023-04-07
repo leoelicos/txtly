@@ -1,4 +1,4 @@
-# Progressive Text Editor
+# txtly
 
 ![idb](https://img.shields.io/badge/7.0.2-0?label=idb&style=for-the-badge&labelColor=white&color=black) ![webpack](https://img.shields.io/badge/5.73.0-0?label=webpack&style=for-the-badge&labelColor=white&color=black) ![workbox-webpack-plugin](https://img.shields.io/badge/6.5.3-0?label=workbox-webpack-plugin&style=for-the-badge&labelColor=white&color=black) ![codemirror](https://img.shields.io/badge/1.0.0-0?label=code-mirror-themes&style=for-the-badge&labelColor=white&color=black)
 
